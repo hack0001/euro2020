@@ -1,0 +1,125 @@
+DATE	TIME		SCORE		GROUP
+
+{
+    "matches":[
+        {
+            "homeTeam":"Turkey",
+            "awayTeam":"Italy",
+            "venue":"Baki",
+            "date":"",
+            "kickoff":"",
+            "homeGoals":"",
+            "awayGoals":""
+
+
+        }
+    ]
+}
+11 Jun	21:00	 Turkey	
+2 : 2
+  Italy	
+12 Jun	15:00	 Wales	
+2 : 2
+  Switzerland	
+12 Jun	18:00	 Denmark	
+2 : 2
+  Finland	
+12 Jun	21:00	 Belgium	
+6 : 6
+  Russian Federation	
+13 Jun	15:00	 England	
+3 : 3
+  Croatia	
+13 Jun	18:00	 Austria	
+3 : 3
+  North Macedonia	
+13 Jun	21:00	 Netherlands	
+3 : 3
+  Ukraine	
+14 Jun	15:00	 Scotland	
+3 : 3
+  Czech Republic	
+14 Jun	18:00	 Poland	
+3 : 3
+  Slovakia	
+14 Jun	21:00	 Spain	
+3 : 3
+  Sweden	
+15 Jun	18:00	 Hungary	
+3 : 3
+  Portugal	
+15 Jun	21:00	 France	
+3 : 3
+  Germany	
+16 Jun	15:00	 Finland	
+3 : 3
+  Russian Federation	
+16 Jun	18:00	 Turkey	
+1 : 3
+  Wales	
+16 Jun	21:00	 Italy	
+3 : 3
+  Switzerland	
+17 Jun	15:00	 Ukraine	
+3 : 3
+  North Macedonia	
+17 Jun	18:00	 Denmark	
+3 : 3
+  Belgium	
+17 Jun	21:00	 Netherlands	
+3 : 3
+  Austria	
+18 Jun	15:00	 Sweden	
+3 : 3
+  Slovakia	
+18 Jun	18:00	 Croatia	
+3 : 3
+  Czech Republic	
+18 Jun	21:00	 England	
+3 : 3
+  Scotland	
+19 Jun	15:00	 Hungary	
+3 : 3
+  France	
+19 Jun	18:00	 Portugal	
+3 : 3
+  Germany	
+19 Jun	21:00	 Spain	
+3 : 3
+  Poland	
+20 Jun	18:00	 Italy	
+8 : 0
+  Wales	
+20 Jun	18:00	 Switzerland	
+3 : 3
+  Turkey	
+21 Jun	18:00	 Ukraine	
+3 : 3
+  Austria	
+21 Jun	18:00	 North Macedonia	
+3 : 3
+  Netherlands	
+21 Jun	21:00	 Finland	
+3 : 3
+  Belgium	
+21 Jun	21:00	 Russian Federation	
+3 : 3
+  Denmark	
+22 Jun	21:00	 Czech Republic	
+3 : 3
+  England	
+22 Jun	21:00	 Croatia	
+3 : 3
+  Scotland	
+23 Jun	18:00	 Sweden	
+3 : 3
+  Poland	
+23 Jun	18:00	 Slovakia	
+3 : 3
+  Spain	
+23 Jun	21:00	 Germany	
+3 : 3
+  Hungary	
+23 Jun	21:00	 Portugal	
+3 : 3
+  France

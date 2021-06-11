@@ -1,0 +1,23 @@
+{
+	"version": 2,
+	"name": "euro2020",
+	"builds": [{ "src": "next.config.js", "use": "@now/next" }],
+	"routes": [
+		{
+			"src": "/",
+			"headers": { "cache-control": "s-maxage=1, stale-while-revalidate" }
+		}
+	],
+	"env": {
+		"NODE_ENV": "production",
+		"NEXT_APP_EURO_ENDPOINT": "https://l9vsdrgg1l.execute-api.eu-west-1.amazonaws.com/europrod",
+		"NEXT_APP_EURO_API_KEY": "qGtr7oCjCt9Ojt42xIav94P8JeAAB9Yv4QNGHog5"
+	},
+	"build": {
+		"env": {
+			"NODE_ENV": "production",
+			"NEXT_APP_EURO_ENDPOINT": "https://l9vsdrgg1l.execute-api.eu-west-1.amazonaws.com/europrod",
+			"NEXT_APP_EURO_API_KEY": "qGtr7oCjCt9Ojt42xIav94P8JeAAB9Yv4QNGHog5"
+		}
+	}
+}

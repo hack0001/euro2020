@@ -1,0 +1,92 @@
+{
+	"venue": [
+		{
+			"id": "amsterdam",
+			"label": "Amsterdam",
+			"country": "Netherlands",
+			"stadium": "Johan Cruff Area",
+			"opened": "1996",
+			"capacity": 54000
+		},
+		{
+			"id": "baku",
+			"label": "Baku",
+			"country": "Azerbaijan",
+			"stadium": "Baku Olympic Stadium",
+			"opened": "2015",
+			"capacity": 69000
+		},
+		{
+			"id": "bucharest",
+			"label": "Bucharest",
+			"country": "Romania",
+			"stadium": "National Area Bucharest",
+			"opened": "2011",
+			"capacity": 54000
+		},
+		{
+			"id": "budapest",
+			"label": "Budapest",
+			"country": "Hundary",
+			"stadium": "Puskas Arena",
+			"opened": "2019",
+			"capacity": 68000
+		},
+		{
+			"id": "copenhagen",
+			"label": "Copenhagen",
+			"country": "Denmark",
+			"stadium": "Parken Stadium",
+			"opened": "1992",
+			"capacity": 38000
+		},
+		{
+			"id": "glasgow",
+			"label": "Glasgow",
+			"country": "Scotland",
+			"stadium": "Hampden Park",
+			"opened": "1903",
+			"capacity": 51000
+		},
+		{
+			"id": "london",
+			"label": "London",
+			"country": "England",
+			"stadium": "Wembley",
+			"opened": "2007",
+			"capacity": 87000
+		},
+		{
+			"id": "munich",
+			"label": "Munich",
+			"country": "Germany",
+			"stadium": "Football Arena Munich",
+			"opened": "2005",
+			"capacity": 70000
+		},
+		{
+			"id": "rome",
+			"label": "Rome",
+			"country": "Italy",
+			"stadium": "Stadio Olimpico",
+			"opened": "1953",
+			"capacity": 68000
+		},
+		{
+			"id": "stpetersburg",
+			"label": "St Petersburg",
+			"country": "Russia",
+			"stadium": "St Petersburg Stadium",
+			"opened": "2017",
+			"capacity": 61000
+		},
+		{
+			"id": "sevilla",
+			"label": "Sevilla",
+			"country": "Spain",
+			"stadium": "Stadium La Catuja",
+			"opened": "1999",
+			"capacity": 60000
+		}
+	]
+}

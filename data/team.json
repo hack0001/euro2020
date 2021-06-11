@@ -1,0 +1,148 @@
+{
+	"teams": [
+		{
+			"id": "wales",
+			"label": "Wales",
+			"country": "Wales",
+			"group": "A"
+		},
+		{
+			"id": "turkey",
+			"label": "Turkey",
+			"country": "Turkey",
+			"group": "A"
+		},
+		{
+			"id": "italy",
+			"label": "Italy",
+			"country": "Italy",
+			"group": "A"
+		},
+		{
+			"id": "switzerland",
+			"label": "Switzerland",
+			"country": "Switzerland",
+			"group": "A"
+		},
+		{
+			"id": "denmark",
+			"label": "Denmark",
+			"country": "Denmark",
+			"group": "B"
+		},
+		{
+			"id": "finland",
+			"label": "Finland",
+			"country": "Finland",
+			"group": "B"
+		},
+		{
+			"id": "belgium",
+			"label": "Belgium",
+			"country": "Belgium",
+			"group": "B"
+		},
+		{
+			"id": "russia",
+			"label": "Russia",
+			"country": "Russia",
+			"group": "B"
+		},
+		{
+			"id": "ukraine",
+			"label": "Ukraine",
+			"country": "Ukraine",
+			"group": "C"
+		},
+		{
+			"id": "netherlands",
+			"label": "Netherlands",
+			"country": "Netherlands",
+			"group": "C"
+		},
+		{
+			"id": "austria",
+			"label": "Austria",
+			"country": "Austria",
+			"group": "C"
+		},
+		{
+			"id": "northmacedonia",
+			"label": "North Macedonia",
+			"country": "North Macedonia",
+			"group": "C"
+		},
+		{
+			"id": "england",
+			"label": "England",
+			"country": "England",
+			"group": "D"
+		},
+		{
+			"id": "croatia",
+			"label": "Croatia",
+			"country": "Croatia",
+			"group": "D"
+		},
+		{
+			"id": "czechrepublic",
+			"label": "Czech Republic",
+			"country": "Czech Republic",
+			"group": "D"
+		},
+		{
+			"id": "scotland",
+			"label": "Scotland",
+			"country": "Scotland",
+			"group": "D"
+		},
+		{
+			"id": "spain",
+			"label": "Spain",
+			"country": "Spain",
+			"group": "E"
+		},
+		{
+			"id": "poland",
+			"label": "Poland",
+			"country": "Poland",
+			"group": "E"
+		},
+		{
+			"id": "sweden",
+			"label": "Sweden",
+			"country": "Sweden",
+			"group": "E"
+		},
+		{
+			"id": "slovakia",
+			"label": "Slovakia",
+			"country": "Slovakia",
+			"group": "E"
+		},
+		{
+			"id": "germany",
+			"label": "Germany",
+			"country": "Germany",
+			"group": "F"
+		},
+		{
+			"id": "france",
+			"label": "France",
+			"country": "France",
+			"group": "F"
+		},
+		{
+			"id": "portugal",
+			"label": "Portugal",
+			"country": "Portugal",
+			"group": "F"
+		},
+		{
+			"id": "hungary",
+			"label": "Hungary",
+			"country": "Hungary",
+			"group": "F"
+		}
+	]
+}
