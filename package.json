@@ -14,6 +14,7 @@
 	"dependencies": {
 		"@date-io/date-fns": "^2.10.11",
 		"@material-ui/core": "^4.11.4",
+		"@material-ui/data-grid": "^4.0.0-alpha.31",
 		"@material-ui/pickers": "^3.3.10",
 		"clsx": "^1.1.1",
 		"date-fns": "^2.22.1",
