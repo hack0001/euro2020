@@ -34,6 +34,7 @@ const Home = ({ databaseMatches }) => {
 	const [matches, setMatches] = useState(
 		databaseMatches.data.listMatches.items,
 	);
+
 	const [selectedMatch, setSelectedMatch] = useState({});
 	const [prediction, setPredictions] = useState({
 		userName: "",
