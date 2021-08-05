@@ -16,7 +16,7 @@ import { LIST_TEAMS } from "../graphql/team";
 import { LIST_ROUNDS } from "../graphql/round";
 import { CREATE_MATCH } from "../graphql/match";
 
-const Home = ({ groups, teams, rounds }) => {
+const Match = ({ groups, teams, rounds }) => {
 	const [match, setMatch] = useState({
 		homeTeam: "",
 		awayTeam: "",
@@ -135,10 +135,10 @@ const Home = ({ groups, teams, rounds }) => {
 								dataValue: "kickoff",
 								defaultValue: new Date(),
 							},
-						].map(form => {
+						].map((form, index) => {
 							if (form.data === "time") {
 								return (
-									<div>
+									<div key={index}>
 										<FormControl
 											variant="outlined"
 											style={{ width: "100%", margin: "2rem 0rem" }}
@@ -164,30 +164,32 @@ const Home = ({ groups, teams, rounds }) => {
 								);
 							}
 							return (
-								<FormControl
-									variant="outlined"
-									style={{ width: "100%", margin: "1rem 0rem" }}
-								>
-									<InputLabel>{form.label}</InputLabel>
-									<Select
-										value={match[form.value]}
-										onChange={e =>
-											setMatch({ ...match, [form.value]: e.target.value })
-										}
-										label={form.label}
+								<div key={index}>
+									<FormControl
+										variant="outlined"
+										style={{ width: "100%", margin: "1rem 0rem" }}
 									>
-										<MenuItem value="">
-											<em>None</em>
-										</MenuItem>
-										{form.data.map(team => {
-											return (
-												<MenuItem value={team[form.dataValue]}>
-													{team[form.dataLabel]}
-												</MenuItem>
-											);
-										})}
-									</Select>
-								</FormControl>
+										<InputLabel>{form.label}</InputLabel>
+										<Select
+											value={match[form.value]}
+											onChange={e =>
+												setMatch({ ...match, [form.value]: e.target.value })
+											}
+											label={form.label}
+										>
+											<MenuItem value="">
+												<em>None</em>
+											</MenuItem>
+											{form.data.map(team => {
+												return (
+													<MenuItem value={team[form.dataValue]}>
+														{team[form.dataLabel]}
+													</MenuItem>
+												);
+											})}
+										</Select>
+									</FormControl>
+								</div>
 							);
 						})}
 					</div>
@@ -228,4 +230,4 @@ export async function getStaticProps() {
 	};
 }
 
-export default Home;
+export default Match;
